@@ -1,6 +1,7 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  border-style: solid;
 }
 
 .columns img {
@@ -9,6 +10,7 @@
 
 .columns > div > div {
   order: 1;
+  border-style: solid;
 }
 
 .columns > div > .columns-img-col {
